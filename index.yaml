@@ -3,12 +3,22 @@ entries:
   eks-ums:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-07-03T18:43:56.367666397Z"
+    created: "2022-07-03T19:02:21.284283518Z"
+    description: A Helm chart for Kubernetes
+    digest: abed4cf21eb39512c7b9312af4d72f26d7edc7c4fafcbfaf22c4eb972be16ac0
+    name: eks-ums
+    type: application
+    urls:
+    - https://github.com/veeru538/helm-test/eks-ums-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-07-03T19:02:21.283786774Z"
     description: A Helm chart for Kubernetes
     digest: 7e5fdac66ee4bf66fc4ebd4eb452565ace88fd365324a294a1d80462355862e7
     name: eks-ums
     type: application
     urls:
-    - https://github.com/veeru538/helm-test.git/eks-ums-0.1.0.tgz
+    - https://github.com/veeru538/helm-test/eks-ums-0.1.0.tgz
     version: 0.1.0
-generated: "2022-07-03T18:43:56.365580724Z"
+generated: "2022-07-03T19:02:21.283064211Z"
