@@ -21,14 +21,14 @@ image:
 #        - ls -ltrh  
 #        - chmod u+x transferFilesToS3.sh && ./transferFilesToS3.sh > postTransfer.logs          
 startupProbe:
-  path: /
-  port: 80    
+  path: /ra/getStatus?apiuser=smsapiuser&apipassword=1dpw82Sg@CT33yHd&channelPartnerID=MSMIND%27
+  port: 5008    
 livenessProbe:
-  path: /      
-  port: 80
+  path: /ra/getStatus?apiuser=smsapiuser&apipassword=1dpw82Sg@CT33yHd&channelPartnerID=MSMIND%27      
+  port: 4040
 readinessProbe:
-  path: /
-  port: 80  
+  path: /ra/getStatus?apiuser=smsapiuser&apipassword=1dpw82Sg@CT33yHd&channelPartnerID=MSMIND%27
+  port: 5008  
 terminationGracePeriodSeconds: 30  
 
 
